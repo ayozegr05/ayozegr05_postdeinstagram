@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Aqui empieza */
+
+
+body {
+    background: black;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4.5rem;
+      } 
+.header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33rem;
+  }
+  
+.header__right {
+    align-items: center;
+    display: flex;
+  }
+  
+.iconhtml5 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  
+.icon3puntos {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  
+.tituloheader {
+    font-family: 'Roboto', sans-serif;
+    font-size:1.2rem;
+  }
+  
+.negrita {
+    font-weight: bold;
+  }
+.img__wrapper{
+    overflow:hidden;
+    background:red;
+    width:33rem;
+    height:25rem;
+  }
+.foto1{
+    object-fit:cover;
+    object-position:-190px -35px;
+    width:800px;
+}
+.footer__wrapper__top{
+    background: white;
+    display: flex;
+    width: 33rem;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer__right{
+    padding-left:1rem;
+}
+.icon_corazon{
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+.icon_comment{
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+.icon_paperplane{
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+.icon_bookmark{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.footer__wrapper__bottom{
+    background: white;
+    width: 33rem;
+}
+.p1, .p2{
+    font-size:1rem;
+    font-family: 'Roboto', sans-serif;
+    padding:1rem;
+}
